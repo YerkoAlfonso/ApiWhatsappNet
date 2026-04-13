@@ -1,0 +1,38 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build artifacts
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+## Rider
+.idea/
+
+## DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/**
+
+## Publish
+publish/
+
+## Others
+*.db
+*.log
+*.vspscc
